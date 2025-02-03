@@ -62,7 +62,7 @@ eg updated data:
         "name": "device1",
         "type": "Fan",
         "model": "1v1`",
-        "powerConsumption": 600,
-        "voltage": 240,
-        "warranty": 12
+        "powerConsumption": 50,
+        "voltage": 120,
+        "warranty": 24
 }

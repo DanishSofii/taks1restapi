@@ -23,7 +23,7 @@ router.route("/device/name/:name").get(handleGetDevicesByName);
 router.route("/device/type/:type").get(handleGetDevicesByType);
 
 //  update a particular device , delete a particular device
-router.route("/device/:id").get(handleGetDeviceById).delete(handleDeleteDeviceById).patch(handleUpdateDeviceById);
+router.route("/device/:id").get(handleGetDeviceById).delete(handleDeleteDeviceById).put(handleUpdateDeviceById);
 
 module.exports = router;
 
