@@ -14,16 +14,16 @@ const {
 router.route("/").get(handleGetAllDevices);
 
 // create a new device
-router.route("/create").post(handleCreateDevice);
+router.route("/device/create").post(handleCreateDevice);
 
 // get devices by name
-router.route("/name/:name").get(handleGetDevicesByName);
+router.route("/device/:name").get(handleGetDevicesByName);
 
 // get devices by type/category
-router.route("/type/:type").get(handleGetDevicesByType);
+router.route("/device/:type").get(handleGetDevicesByType);
 
 //  update a particular device , delete a particular device
-router.route("/:id").get(handleGetDeviceById).delete(handleDeleteDeviceById).patch(handleUpdateDeviceById);
+router.route("/device/:id").get(handleGetDeviceById).delete(handleDeleteDeviceById).patch(handleUpdateDeviceById);
 
 module.exports = router;
 
