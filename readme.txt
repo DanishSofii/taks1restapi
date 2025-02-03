@@ -14,7 +14,7 @@ replace :id with the id you warranty
 #3 Get list of devices using device name
 GET /devices/name/:name
 
-https://devices-2bd1.onrender.com/device/:name
+https://devices-2bd1.onrender.com/device/name/:name
 
 :name replace with actual name like device1,device2,device4 etc
 
@@ -44,7 +44,7 @@ replace :id with device id
 #6 Get devices by type
 GET /device/type/:type
 
-https://devices-2bd1.onrender.com/device/:type
+https://devices-2bd1.onrender.com/device/type/:type
 
 replace :type with any type like fan,AC,light,switch etc
 
