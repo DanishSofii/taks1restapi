@@ -25,13 +25,13 @@ https://devices-2bd1.onrender.com/device/create
 
 insert into body as json eg:
         {
-            "deviceId": 7,
-            "name": "device6",
-            "type": "switch",
-            "model": "7v1`",
+            "deviceId": 9,
+            "name": "device9",
+            "type": "alternator",
+            "model": "9v1`",
             "powerConsumption": 200,
-            "voltage": 130,
-            "warranty": 12
+            "voltage": 230,
+            "warranty": 24
         }
 
 #5 Delete a device by id

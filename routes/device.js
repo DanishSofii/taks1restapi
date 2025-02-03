@@ -17,10 +17,10 @@ router.route("/").get(handleGetAllDevices);
 router.route("/device/create").post(handleCreateDevice);
 
 // get devices by name
-router.route("/device/:name").get(handleGetDevicesByName);
+router.route("/device/name/:name").get(handleGetDevicesByName);
 
 // get devices by type/category
-router.route("/device/:type").get(handleGetDevicesByType);
+router.route("/device/type/:type").get(handleGetDevicesByType);
 
 //  update a particular device , delete a particular device
 router.route("/device/:id").get(handleGetDeviceById).delete(handleDeleteDeviceById).patch(handleUpdateDeviceById);
